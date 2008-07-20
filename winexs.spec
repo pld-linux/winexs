@@ -1,4 +1,5 @@
-Summary:	WineXS
+Summary:	WineXS - easy interface to wine
+Summary(pl.UTF-8):	WineXS - prosty w użyciu interfejs do Wine
 Name:		winexs
 Version:	1.2.3
 Release:	0.1
@@ -13,6 +14,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 WineXS is a fun project and was made to make using Wine a little
 easier.
+
+%description -l pl.UTF-8
+WineXS to projekt wykonany dla zabawy, czyniący używanie Wine
+trochę łatwiejszym.
 
 %prep
 %setup -qc
